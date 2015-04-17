@@ -14,7 +14,7 @@ def pairs(a, b)
     puts b
     b.each { |x| shuffle(a); a.each { |y| print y, " ", x, ".\n" } }
 end
-first = ['Strange', 'Fresh', 'Alarming']
+first = ['Ruby', 'On', 'Rails']
 pairs(first, ['lemonade', 'procedure', 'sounds', 'throughway'])
 print "\n", first.join(" "), "\n"
 
