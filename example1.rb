@@ -9,7 +9,9 @@ end
 # Make strange declarations.
 def pairs(a, b)
     a << 'Insane'
+    puts a
     shuffle(b)
+    puts b
     b.each { |x| shuffle(a); a.each { |y| print y, " ", x, ".\n" } }
 end
 first = ['Strange', 'Fresh', 'Alarming']
