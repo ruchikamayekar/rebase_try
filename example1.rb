@@ -11,10 +11,12 @@ def pairs(a, b)
     a << 'Insane'
     puts "Hi from swati hello"
     shuffle(b)
+    puts "Hiiiiii"
     puts b
     b.each { |x| shuffle(a); a.each { |y| print y, " ", x, ".\n" } }
 end
 first = ['Strange', 'Fresh', 'Alarming']
 pairs(first, ['lemonade', 'procedure', 'sounds', 'throughway'])
 print "\n", first.join(" "), "\n"
+puts "Hieeeeeee"
 
