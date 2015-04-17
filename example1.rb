@@ -15,6 +15,6 @@ def pairs(a, b)
     b.each { |x| shuffle(a); a.each { |y| print y, " ", x, ".\n" } }
 end
 first = ['Ruby', 'On', 'Rails']
-pairs(first, ['lemonade', 'procedure', 'sounds', 'throughway'])
+pairs(first, ['Kiprosh', 'Saki Naka', 'Mumbai', 'India'])
 print "\n", first.join(" "), "\n"
 
