@@ -8,7 +8,7 @@ end
 
 # Make strange declarations.
 def pairs(a, b)
-    a << 'Insane'
+    a << 'Ruchika'
     puts "Hi from swati"
     shuffle(b)
     puts b
