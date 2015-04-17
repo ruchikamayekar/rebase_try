@@ -9,7 +9,7 @@ end
 # Make strange declarations.
 def pairs(a, b)
     a << 'Insane'
-    puts a
+    puts "Hi from master"
     shuffle(b)
     puts b
     b.each { |x| shuffle(a); a.each { |y| print y, " ", x, ".\n" } }
