@@ -16,7 +16,7 @@ while res != ''
         res.push($1)
     elsif line.sub!(/^(\d+):(\S+)/, '')
         # Repeated with n:
-        puts "Whatever"
+        puts "Rebase master!"
         $1.to_i.times { res.push($2) }
     else
         # Just a word.
