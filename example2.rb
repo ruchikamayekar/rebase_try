@@ -1,7 +1,9 @@
 # Using re's to break up a line.
 print "Please enter a line: "
 line = gets.chomp
+
 puts " one more check What is it"
+
 res = [ ]
 while res != ''
     # String leading blanks.
