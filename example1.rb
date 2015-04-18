@@ -10,6 +10,7 @@ end
 def pairs(a, b)
     a << 'Insane'
     puts "Hi from swati hello"
+    puts "Retry"
     shuffle(b)
     puts "Hiiiiii"
     puts b
