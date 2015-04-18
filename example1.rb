@@ -11,6 +11,7 @@ def pairs(a, b)
     a << 'Insane'
     puts "Hi from swati hello"
     puts "Retry"
+    puts "try"
     shuffle(b)
     puts "Hiiiiii"
     puts b
